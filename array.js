@@ -16,3 +16,11 @@ console.log(num2);
 
 num2.pop(); //remove last element
 console.log(num2);
+
+
+//splice
+var num3 = [100, 200, 300, 400, 500,800,101];
+num3.splice(3,2);
+console.log(num3) //remove 1 element from index 2
+var result = num3.concat(num2);
+console.log(result);
